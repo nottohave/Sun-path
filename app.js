@@ -28,6 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
     createBoard()
 
     // Drag the candies
+let colorBeingDragged
+let colorBeingReplaced
+let squareIdBeingDragged
+let squareIdBeingReplaced
+
     squares.forEach(square => square.addEventListener('dragstart', dragStart))
     squares.forEach(square => square.addEventListener('dragend', dragStart))
     squares.forEach(square => square.addEventListener('dragover', dragStart))
@@ -35,6 +40,42 @@ document.addEventListener('DOMContentLoaded', () => {
     squares.forEach(square => square.addEventListener('dragleave', dragStart))
     squares.forEach(square => square.addEventListener('drop', dragStart))
 
+    function dragStart() {
+        colorBeingDragged = this.style.backgroundColor
+        squareBeingDragged = parseInt(this.id)
+        console.log(colorBeingDragged)
+        console.log(this.id, 'dragStart')
+    }
+    
+    function dragOver(e) {
+        e.preventDefault()
+        console.log(this.id, 'dragOver')
+    }
+
+    function dragEnter(e) {
+        e.preventDefault
+        console.log(this.id, 'dragEnter')
+    }
+
+    function dragLeave() {
+        console.log(this.id, 'dragLeave')
+    }
+
+    function dragEnd() {
+        console.log(this.id, 'dragEnd')
+    }
+
+    function dragDrop() {
+        console.log(this.id, 'dragDrop')
+        colorBeingReplaced = this.style.backgroundColor
+        squareIdBeingReplaced = parseInt(this.id)
+        this.style.backgroundColor = colorBeingReplaced
+        squares[squareIdBeingDragged].style.backgroundColor = colorBeingReplaced
+    }
+
+    function dragEnd() {
+        console.log(this.id, 'dragend')
+        //  what is a valid move?
+    }
 })
 
-// think

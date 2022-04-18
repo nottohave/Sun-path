@@ -79,11 +79,15 @@ document.addEventListener('DOMContentLoaded', () => {
             squareIdBeingDragged +1,
             squareIdBeingDragged -width
         ]
+        // store the value of valid moves to for later test
         let validMove = validMoves.includes(squareIdBeingReplaced);
 
         if (squareIdBeingReplaced && validMove) {
             squareIdBeingReplaced = null
+            console.log("this has execute")
         } else if (squareIdBeingReplaced && !validMove) {
+            // If the dropped square is too far away from the orignal point, 
+            // return the original color to both square
             squares[squareIdBeingReplaced].style.backgroundColor = colorBeingReplaced
         } else squares[squareIdBeingDragged].style.backgroundColor = colorBeingDragged
     }

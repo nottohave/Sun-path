@@ -21,7 +21,14 @@ body {
     height: 68px;
     width: 68px;
     background-size: contain;
-    margin-top:5px;
+    margin-top: 5px;
+}
+
+.score-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.5rem;
 }
 
 .score-board {
@@ -29,8 +36,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(169, 165, 165, 0.5) inset, 0 1px 0 #fff;
 }
-
 
 .score-board h3 {
     font-family:'Courier New', Courier, monospace;
@@ -44,4 +54,6 @@ body {
     font-family:'Courier New', Courier, monospace;
     color: lightseagreen;
     text-align: center;
+    width: 100%;
+    font-size: 2rem;
 }

@@ -8,4 +8,6 @@ Thank you for making this project.
 ### Further development
 - Add check row and column for 5. 
 - Making mobile and tablet friendly.
-- Add sources to icon images to credit artists.
+- Add animation, and perhaps sounds.
+- Add sources of icon images in README to credit artists.
+- Upon refresh or first load, no titles should be cleared. 

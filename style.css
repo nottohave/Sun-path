@@ -4,6 +4,7 @@ body {
     justify-content: space-evenly;
     background-image: url(./assets/candy-crush-background-2.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grid {
@@ -56,4 +57,60 @@ body {
     text-align: center;
     width: 100%;
     font-size: 2rem;
+}
+
+/* small screen */
+@media (max-width: 25em) {
+    .grid {
+        height: 300px;
+        width: 300px;
+    }
+
+    .grid div {
+        height: 30px;
+        width: 30px;
+    }
+
+    .score-board {
+        height: 50px;
+        width: 70px;
+    }
+
+    .score-board h3 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #score {
+        margin: 0;
+        font-size: 1rem;
+    }
+}
+
+/* mediun screen */
+@media (max-width: 35em) {
+    .grid {
+        height: 500px;
+        width: 500px;
+    }
+
+    .grid div {
+        height: 50px;
+        width: 50px;
+    }
+
+    .score-board {
+        height: 50px;
+        width: 70px;
+    }
+
+    .score-board h3 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    #score {
+        margin: 0;
+        font-size: 1rem;
+    }
 }

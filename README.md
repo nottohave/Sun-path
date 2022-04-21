@@ -3,8 +3,15 @@
 
 I created a game called Baby Rush, inspired from Ania Kubow. Thank you for making this project. 
 
+[Live Site](https://nottohave.github.io/flower-crush/)
+
+### About
+
+This is a simple game. Moves are unlimited. You can refresh and play each time you run out of items to match.
 
 To get a full board, for now you just keep on reloading.
+To move item downward, you have to bring something upward.
+To clone an item, move the desired item to the top left item. 
 
 ### Preview
 

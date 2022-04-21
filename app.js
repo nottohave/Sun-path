@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const candyColors = [
         'url(assets/alien.png)',
         'url(assets/baby-girl.png)',
-        'url(assets/cherry-blossom.png)',
+        'url(assets/cherry-blossom-1.png)',
         'url(assets/candy.png)',
         'url(assets/rose.png)',
         'url(assets/sunflower.png)'

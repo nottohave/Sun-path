@@ -1,7 +1,13 @@
 ### Candy Crush 
-- Inspired from (Ania Kubow)[https://github.com/kubowania/candy-crush]
+- Inspired from [Ania Kubow](https://github.com/kubowania/candy-crush)
 
 I created a game called Baby Rush, inspired from Ania Kubow. 
+
+To get a full board, for now you just keep on reloading.
+
+### Preview
+
+![](./assets/overview.png)
 
 Thank you for making this project. 
 

@@ -8,3 +8,4 @@ Thank you for making this project.
 ### Further development
 - Add check row and column for 5. 
 - Making mobile and tablet friendly.
+- Add sources to icon images to credit artists.

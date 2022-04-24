@@ -88,8 +88,8 @@ body {
     }
 }
 
-/* small screen */
-@media (max-width: 30em) {
+/* small screen 480 */ 
+@media (max-width: 24.999em) {
     .grid {
         height: 300px;
         width: 300px;

@@ -18,9 +18,13 @@ To clone an item, move the desired item to the top left item.
 ![](./assets/overview.png)
 ![](./assets/full-board.png)
 
+### Added feature
+- Add check row and column for 5 
+
+### Bug
+- Sometimes rows won't clear because unknown cause of a variable become undefined. Refresh page when this happens.
 
 ### Further development
-- Add check row and column for 5. 
 - Making mobile and tablet friendly.
 - Add animation, and perhaps sounds.
 - Add sources of icon images in README to credit artists.

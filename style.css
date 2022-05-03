@@ -29,7 +29,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 7.5rem;
+    width: 15rem;
 }
 
 .score-board {
@@ -57,10 +57,17 @@ body {
     text-align: center;
     width: 100%;
     font-size: 2rem;
+    margin: 5px 0 5px 0;
 }
 
+@media (max-width: 60em) {
+    .score-board h3 {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+}
 
-/* mediun screen */
+/* mediun screen 560 */
 @media (max-width: 35em) {
     .grid {
         height: 500px;
@@ -73,8 +80,8 @@ body {
     }
 
     .score-board {
-        height: 50px;
-        width: 70px;
+        height: 80px;
+        width: 77px;
     }
 
     .score-board h3 {

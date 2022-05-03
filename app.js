@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'url(assets/alien.png)',
         'url(assets/baby-girl.png)',
         'url(assets/cherry-blossom-1.png)',
-        'url(assets/candy.png)',
-        'url(assets/rose.png)',
+        'url(assets/cotton-candy.png)',
+        'url(assets/lotus.png)',
         'url(assets/sunflower.png)'
     ]
 

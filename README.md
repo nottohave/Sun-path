@@ -15,8 +15,8 @@ To clone an item, move the desired item to the top left item.
 
 ### Preview
 
-![](./assets/overview.png)
-![](./assets/full-board.png)
+![](./assets/preview.png)
+
 
 ### Added feature
 - Add check row and column for 5 

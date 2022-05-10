@@ -3,7 +3,7 @@
 
 I created a game called Baby Rush, inspired from Ania Kubow. Thank you for making this project. 
 
-[Live Site](https://nottohave.github.io/flower-crush/)
+[Live Site](https://nottohave.github.io/Sun-path/)
 
 ### About
 

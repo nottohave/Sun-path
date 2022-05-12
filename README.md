@@ -1,7 +1,7 @@
 ### Candy Crush 
 - Inspired from [Ania Kubow](https://github.com/kubowania/candy-crush)
 
-I created a game called Baby Rush, inspired from Ania Kubow. Thank you for making this project. 
+I created a game called Sun Path Baby Rush, inspired from Ania Kubow. Thank you for making this project. 
 
 [Live Site](https://nottohave.github.io/Sun-path/)
 
@@ -16,7 +16,6 @@ To clone an item, move the desired item to the top left item.
 ### Preview
 
 ![](./assets/preview.png)
-
 
 
 ### Bug

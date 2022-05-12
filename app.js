@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'url(assets/baby-girl.png)',
         'url(assets/cherry-blossom-1.png)',
         'url(assets/cotton-candy.png)',
-        'url(assets/lotus.png)',
+        'url(assets/goddamroseme.png)',
         'url(assets/sunflower.png)'
     ]
 

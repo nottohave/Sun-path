@@ -109,44 +109,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Check for row and column of five
-    // function checkRowForFive() {
-    //     for (i = 0; i < 60; i++) {
-    //         let rowOfFive = [i, i+1, i+2, i+3, i+4]
-    //         let decidedColor = squares[i].style.backgroundImage
-    //         const isBlank = squares[i].style.backgroundImage === ''
-
-    //         const notValid = [6, 7, 14, 15, 22, 23, 30, 31, 38, 39, 46, 47, 54, 55]
-
-    //         if (notValid.includes(i)) continue
-
-    //         if (rowOfFive.every(index => squares[index].style.backgroundImage === decidedColor && !isBlank )) {
-    //             score += 5
-    //             scoreDisplay.innerHTML = score;
-    //             rowOfFive.forEach(index => {
-    //                 squares[index].style.backgroundImage = ''
-    //             })
-    //         }
-    //     }
-    // }
-    // checkRowForFive()
-
-    // function checkColumnForFive() {
-    //     for (i = 0; i < 39; i++) {
-    //         let columnOfFive = [i, i+width, i+width*2, i+width*3, i+width*4]
-    //         let decidedColor = squares[i].style.backgroundImage
-    //         const isBlank = squares[i].style.backgroundImage === ''
-
-    //         if (columnOfFive.every(index => squares[index].style.backgroundImage === decidedColor && !isBlank )) {
-    //             score += 5
-    //             scoreDisplay.innerHTML = score;
-    //             columnOfFive.forEach(index => {
-    //                 squares[index].style.backgroundImage = ''
-    //             })
-    //         }
-    //     }
-    // }
-    // checkColumnForFive()
     
 
     // Checking for matches
@@ -234,9 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 window.setInterval(function() {
     moveDown()
-
-    // checkRowForFive()
-    // checkColumnForFive()
 
     checkRowForFour()
     checkColumnForFour()
